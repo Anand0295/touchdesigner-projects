@@ -1,179 +1,174 @@
-# 🎨 TouchDesigner Projects: A Journey Through Node-Based Creative Computing
+# TouchDesigner: A Curated Creative Journey
 
-Welcome to this collection of explorations, experiments, and discoveries made possible by TouchDesigner—a remarkable platform that has transformed how artists, technologists, and creative minds bring their visions to life.
-
-## 📖 The Story of TouchDesigner: From Humble Beginnings to Global Creative Force
-
-TouchDesigner's journey began in the late 1990s when Greg Hermanovic and his team at Derivative founded the company with a vision: to create a tool that would democratize real-time interactive multimedia creation. Born from the same lineage as Houdini (Side Effects Software), TouchDesigner inherited a powerful node-based architecture but carved its own path into the realms of real-time performance, interactive installations, and live visual experiences.
-
-Over the past two decades, TouchDesigner has become an essential tool in the creative technology ecosystem. You'll find it powering massive LED installations at music festivals like Coachella and Tomorrowland, driving immersive experiences in museums and galleries worldwide, enabling groundbreaking performances by artists like Amon Tobin and Aphex Twin, and serving as the backbone for architectural projections that transform city skylines into living canvases.
-
-What started as a tool for a niche community of media artists has blossomed into a global phenomenon. From the projection mapping that illuminates historic buildings in Tokyo to the interactive installations in New York's Museum of Modern Art, from university research labs exploring human-computer interaction to bedroom studios where independent artists craft mesmerizing visuals—TouchDesigner has left an indelible mark on contemporary digital culture.
-
-## 🌍 How the World Uses TouchDesigner: Real Stories, Real Impact
-
-The beauty of TouchDesigner lies in its versatility and the diverse community it serves. Let me share some of the ways people are using this incredible platform:
-
-**Artists and Visual Designers** use TouchDesigner to create generative art systems that evolve and breathe with life. They build algorithmic compositions where mathematical beauty meets aesthetic vision, crafting visuals that would be impossible to create frame-by-frame. These artists perform live as VJs, manipulating real-time visuals that respond to music, creating synesthetic experiences where sound and image become one.
-
-**Coders and Technical Directors** appreciate TouchDesigner's flexibility and power. They write custom Python and GLSL shaders, build complex data visualization systems, create tools for other artists, and push the boundaries of what's computationally possible in real-time. They're the architects who design systems that might run for months in a museum installation or handle the precise timing demands of a Broadway production.
-
-**Educators and Students** have embraced TouchDesigner as a gateway into creative coding. Unlike traditional text-based programming that can feel abstract and intimidating, TouchDesigner's visual nature makes computational thinking tangible. Students can see data flowing through their networks, understand cause and effect immediately, and build confidence as they create increasingly sophisticated systems. Universities around the world now offer courses in TouchDesigner, recognizing it as essential literacy for the next generation of media artists.
-
-**Technologists and Experience Designers** leverage TouchDesigner to prototype and deploy interactive experiences. They connect it to sensors, cameras, motion tracking systems, AR/VR headsets, and custom hardware. They build responsive environments where spaces react to human presence, where gestures control light and sound, where the boundary between physical and digital dissolves into magic.
-
-## 🧩 The Power of Node-Based Visual Programming: Why It Matters
-
-To understand why TouchDesigner is special, you need to understand what makes node-based visual programming fundamentally different—and profoundly powerful—especially for generative and interactive art.
-
-Traditional coding asks you to think linearly, writing line after line of text instructions. Node-based programming invites you to think spatially and systemically. You see the flow of data, the connections between processes, the architecture of your creation laid out before you. This isn't just a different interface; it's a different way of thinking.
-
-For generative art, this approach is revelatory. Generative systems are all about interconnection—how noise functions feed into displacement maps, how audio analysis drives particle behaviors, how feedback loops create emergence and complexity from simple rules. In TouchDesigner, these relationships are visible and manipulable. You can experiment with connections, try different routings, and understand your system holistically in ways that get lost in pages of code.
-
-The real-time nature compounds this power. Changes happen instantly. Adjust a parameter and watch the entire system respond. This tight feedback loop between intention and result accelerates learning and encourages experimentation. You're not guessing what your code will do and waiting for compilation; you're having a conversation with your creation, refining and discovering in real-time.
-
-Moreover, node-based programming lowers the barrier to entry without lowering the ceiling. Beginners can create impressive results quickly by connecting pre-built operators, learning concepts before syntax. Advanced users can dive deep into custom operators, shaders, and Python scripting, building tools that rival any traditional development environment. This gradient of complexity means TouchDesigner grows with you, from your first day to your thousandth project.
-
-## 💡 My Personal Journey: Learning, Discovery, and the Joy of Experimentation
-
-This repository represents my ongoing exploration of TouchDesigner's capabilities. I didn't come to TouchDesigner as an expert—I came as a curious learner, excited by the possibilities and willing to embrace the inevitable mistakes and dead ends that come with learning any complex tool.
-
-What drew me in was the immediate gratification of creation. Within my first hour, I had pixels dancing across the screen. Within my first week, I was building systems that surprised me with their emergent behaviors. Within my first month, I realized I was thinking differently about problems, seeing patterns and possibilities I hadn't noticed before.
-
-Each project in this repository is a snapshot of that learning process. Some are polished explorations of specific techniques. Others are rough experiments that taught me valuable lessons even if the final result wasn't visually impressive. I've included both because the messy middle of learning is just as important as the finished showcase pieces.
-
-I've experimented with particle systems that respond to audio, generative landscapes built from noise functions, feedback loops that create organic motion, data visualization that transforms numbers into visual poetry, interactive systems that respond to user input in unexpected ways, and shader experiments that push the boundaries of real-time rendering.
-
-Some experiments failed spectacularly. Parameters exploded into chaos, feedback loops crashed the system, ambitious ideas outstripped my technical knowledge. But each failure taught me something—about TouchDesigner's architecture, about optimization, about when to simplify and when to push further.
-
-The joy of TouchDesigner is that it meets you where you are. When I was a beginner, it let me create impressive results with simple networks. As my understanding deepened, it revealed layers of complexity and power that I'm still discovering. This is not a tool you master and move past—it's a creative partner that grows with you.
-
-## 🔰 For the Curious, the Beginners, the Fellow Travelers
-
-If you're just starting with TouchDesigner, know that you're in good company. Every expert was once a beginner, confused by operators and overwhelmed by documentation. The learning curve can feel steep, but the community is welcoming and the rewards are immediate.
-
-Don't be intimidated by complex networks you see from advanced users. Every elaborate system started with simple connections. Focus on understanding one operator at a time, one concept at a time. Build small, experiment freely, and don't be afraid to break things. TouchDesigner's real-time feedback makes it one of the most forgiving environments to learn in—you see immediately when something works (or doesn't), and iteration is instantaneous.
-
-The beauty of node-based programming is that you can learn by example. Open someone else's network, trace the connections, change parameters to see what happens. This repository is designed with that spirit in mind. Every project is meant to be opened, explored, modified, and broken apart. Take what's useful, ignore what isn't, and make it your own.
-
-## 📦 What This Repository Offers
-
-This collection includes:
-
-- **Generative Art Systems**: Explorations of algorithmic beauty, from simple patterns to complex emergent behaviors
-- **Audio Reactive Visuals**: Systems that transform sound into visual motion, exploring the relationship between audio analysis and visual parameters
-- **Particle Experiments**: Studies in particle systems, forces, and emergent motion
-- **Feedback Loops**: Explorations of how systems can feed back into themselves to create organic, evolving visuals
-- **Shader Studies**: Experiments with GLSL shaders for custom rendering and effects
-- **Interactive Prototypes**: Systems designed to respond to user input or sensor data
-- **Technical Exercises**: Focused studies of specific TouchDesigner operators and techniques
-- **Compositional Experiments**: Explorations of visual composition, color theory, and motion design within the TouchDesigner environment
-
-Each project folder includes:
-
-- The `.toe` file (TouchDesigner project)
-- Documentation explaining the concept and techniques used
-- Notes on key learnings or challenges encountered
-- Suggested modifications or extensions to try
-- Any additional assets needed (textures, models, etc.)
-
-## 🚀 How to Use These Projects
-
-**Prerequisites:**
-
-- TouchDesigner (free for non-commercial use)
-- Basic familiarity with TouchDesigner's interface (though beginners can learn by exploring)
-- Curiosity and willingness to experiment
-
-**Getting Started:**
-
-1. Clone or download this repository
-2. Open any project folder
-3. Launch the `.toe` file in TouchDesigner
-4. Explore the network, adjust parameters, and see how things change
-5. Read the documentation to understand the concepts
-6. Modify and experiment—make it your own
-
-**Learning Approach:**
-
-If you're using these projects to learn, I recommend:
-
-- Start with simpler projects before diving into complex systems
-- Don't just look—actively modify parameters and connections
-- Try to recreate projects from scratch based on the documentation
-- Combine techniques from different projects into your own creations
-- Share your modifications or improvements (pull requests welcome!)
-
-**Requirements:**
-
-- TouchDesigner 2022 or newer (most projects; some may specify different versions)
-- Any additional assets needed (textures, models, etc.)
-
-Open the `.toe` files in TouchDesigner, press play, and start exploring. Change parameters, disconnect and reconnect nodes, break things and fix them. The real learning happens when you dig into the networks and make them your own.
-
-## 🌱 The Road Ahead: Growth, Learning, and Community
-
-This repository is a living document of my continuing journey with TouchDesigner. I'll keep adding new experiments as I learn new techniques, explore new ideas, and get inspired by the incredible work I see from the community. Some projects will be technical exercises; others will be artistic expressions. All will be shared in the spirit of collective learning.
-
-I'm also eager to learn from you. If you use these projects as starting points for your own work, I'd love to see what you create. If you find bugs, have suggestions for improvements, or want to contribute your own experiments, please open issues or pull requests. This can be a collaborative space where we all grow together.
-
-The creative technology landscape is evolving rapidly. New tools emerge constantly, techniques advance, and possibilities expand. But certain principles remain constant: the value of experimentation, the importance of community, the joy of making something that didn't exist before. TouchDesigner embodies these principles, and this repository aims to honor them.
-
-## 🙏 Heartfelt Thanks and Appreciation
-
-None of this would be possible without the extraordinary work of Derivative and the TouchDesigner team. Greg Hermanovic, Rob Ramirez, and the entire crew have not only built an incredible tool—they've nurtured a global community and remained committed to supporting artists, educators, and creative technologists. Their decision to offer TouchDesigner free for non-commercial use has opened doors for countless creators who might otherwise never have access to such powerful technology.
-
-The TouchDesigner community deserves equal appreciation. The artists who share their techniques in tutorials, the developers who create custom components, the educators who teach workshops, the forum moderators who patiently answer endless questions—you make this ecosystem thrive. Special appreciation to the countless creators whose work inspires these experiments, even if I can't always trace the exact lineage of every idea.
-
-To everyone who has shared a tutorial, answered a question, posted a breakdown of their process, or simply created something beautiful and put it into the world—thank you. You've contributed to a commons of creative knowledge that elevates us all.
-
-## 📚 Resources for Your Journey
-
-If you're inspired to explore TouchDesigner further, here are essential resources:
-
-**Official Resources:**
-
-- Official Website: https://derivative.ca/
-- Download TouchDesigner: https://derivative.ca/download
-- Official Documentation: https://docs.derivative.ca/
-- Forum & Community: https://forum.derivative.ca/
-- Official YouTube Tutorials: https://www.youtube.com/user/derivativeinc
-
-**Learning Resources:**
-
-- The official documentation is comprehensive and includes excellent tutorials
-- The forum is incredibly active and welcoming to beginners
-- YouTube has thousands of TouchDesigner tutorials from community members
-- Interactive node reference within TouchDesigner (press F1 on any operator)
-
-**Community:**
-
-- Join the forum to ask questions, share work, and connect with other users
-- Attend TouchDesigner workshops and summits (both virtual and in-person)
-- Follow #touchdesigner on social media for daily inspiration
-- Participate in creative coding communities that embrace node-based tools
-
-## 💭 Final Thoughts
-
-Creative technology is about more than making pretty pictures or impressive technical demonstrations. It's about exploring new forms of expression, asking questions about how we interact with computation, and imagining futures where technology amplifies human creativity rather than replacing it.
-
-TouchDesigner is a tool, but like any great tool, it's also a lens—a way of seeing and thinking that shapes what becomes possible. By thinking in nodes and networks, by embracing real-time systems and generative processes, by bridging code and art, we develop new creative literacies that matter far beyond any single project.
-
-This repository is my small contribution to that larger conversation. It's an invitation to explore, experiment, and discover alongside me. Whether you're a seasoned TouchDesigner veteran or someone who just heard about it today, I hope you find something here that sparks your imagination or helps you on your own journey.
-
-Thank you for being here, for being curious, for creating and sharing. The future of creative technology will be shaped by people like you who dare to experiment, fail, learn, and try again.
-
-Now go make something amazing.
+> An artfully curated collection of TouchDesigner resources, reimagined with fresh perspectives and unique discoveries for the modern real-time visual artist.
 
 ---
 
-*This repository is maintained by Anand0295. All projects are open source and available for learning, remixing, and creative exploration. If these experiments inspire you or help you in some way, that makes me happy. Keep creating, keep sharing, keep pushing boundaries.*
+## 🌟 Foundation Resources: Your Starting Point
 
-**Connect & Contribute:**
+These are the essential pillars that every TouchDesigner practitioner should bookmark.
 
-- Found a bug? Open an issue.
-- Have a suggestion? Start a discussion.
-- Created something inspired by these projects? Share it!
-- Want to contribute your own experiments? Pull requests welcome.
+### Official Channels
 
-Let's build and learn together. ✨
+- **[Derivative Official Site](https://derivative.ca/)** - The mothership. Download the latest builds, explore case studies, and dive into the official documentation that keeps getting better with each release.
+- **[TouchDesigner Documentation](https://docs.derivative.ca/)** - Your encyclopedia for operators, expressions, and system architecture. The search function here is your best friend.
+- **[Derivative Forum](https://forum.derivative.ca/)** - The beating heart of the community. Post questions, share discoveries, and witness the collective genius of thousands of TD artists.
+- **[Official YouTube Channel](https://www.youtube.com/@derivative)** - Masterclasses, feature announcements, and artist showcases straight from the source.
+
+---
+
+## 📚 Learning Pathways: From Novice to Virtuoso
+
+Handpicked educational resources that transform confusion into clarity.
+
+### Beginner-Friendly Starts
+
+- **[Interactive & Immersive HQ](https://www.youtube.com/@TheInteractiveImmersiveHQ)** - Elburz Sorkhabi's legendary tutorials break down complex concepts with remarkable clarity. Start here if you're new.
+- **[Bileam Tschepe (elekktronaut)](https://www.youtube.com/@elekktronaut)** - Technical deep-dives with German precision and artistic flair. His workflow tips are pure gold.
+- **[PPPANIK](https://www.youtube.com/@PPPANIK)** - Fresh, contemporary approaches to generative design and audio-reactive visuals.
+
+### Advanced Exploration
+
+- **[Matthew Ragan's Blog](https://matthewragan.com/)** - Data visualization, installation design, and Python scripting wisdom from a TouchDesigner veteran.
+- **[The Interactive & Immersive HQ Courses](https://interactiveimmersive.io/)** - Structured, professional-grade courses when you're ready to level up systematically.
+- **[TouchDesigner Summit Recordings](https://derivative.ca/community/events)** - Annual conferences packed with cutting-edge techniques and industry insights.
+
+---
+
+## 🛠️ Essential Tools & Power-Ups
+
+Plugins and extensions that unlock new dimensions of possibility.
+
+### Performance Enhancers
+
+- **[TDAbleton](https://github.com/AlexanderPollak/TDAbleton)** - Seamless Ableton Live integration for music-driven visuals. A game-changer for VJs and live performers.
+- **[TDMorph](https://github.com/DavidBraun/TDMorph)** - Advanced morphing and interpolation techniques packaged beautifully.
+- **[Palette](https://derivative.ca/community/palette)** - Pre-built component library that accelerates prototyping and production work.
+
+### Creative Amplifiers
+
+- **[TD-Shader](https://github.com/function-store/TD-Shader)** - GLSL shader collections to supercharge your visual palette.
+- **[TD-OpenCV](https://derivative.ca/community/project/td-opencv)** - Computer vision capabilities that open doors to interactive installations.
+- **[OSCulator](https://osculator.net/)** - Bridge TouchDesigner with MIDI, OSC, and game controllers with elegant routing.
+
+### AI & Machine Learning
+
+- **[TD-MediaPipe](https://github.com/torinmb/mediapipe-touchdesigner)** - Hand tracking, pose estimation, and face detection powered by Google's MediaPipe.
+- **[RunwayML Integration](https://runwayml.com/)** - Bring AI-generated imagery and real-time style transfer into your TD workflows.
+
+---
+
+## 🎨 Artist & Studio Spotlights: The Pioneers
+
+Creative visionaries pushing TouchDesigner to its absolute limits.
+
+### Boundary Pushers
+
+- **[Nsynk Collective](https://nsynk.de/)** - Architectural projection mapping meets pure technical wizardry. Their large-scale installations redefine spatial storytelling.
+- **[Onformative](https://onformative.com/)** - Berlin studio merging generative design with physical computing for museum-quality experiences.
+- **[Refik Anadol](https://refikanadol.com/)** - Data-driven artworks that turn information into mesmerizing visual narratives (uses TD in production pipeline).
+
+### Solo Innovators
+
+- **[Simon Alexander-Adams](https://www.instagram.com/polyhop/)** - Organic, flowing forms that feel alive. His exploration of feedback loops is hypnotic.
+- **[Paketa12](https://www.instagram.com/paketa12/)** - Ethereal, otherworldly compositions that blur the line between digital and natural.
+- **[Richard Burns](https://www.instagram.com/richardburnsstudio/)** - Minimalist geometric explorations with impeccable timing and color theory.
+
+---
+
+## 🌐 Community Hubs: Where the Magic Happens
+
+The social spaces where knowledge flows, collaborations spark, and friendships form.
+
+### Discord Servers
+
+- **[Official TouchDesigner Discord](https://discord.gg/touchdesigner)** - The most active real-time help community. Thousands of members, instant feedback, daily inspiration.
+- **[The Interactive & Immersive Discord](https://discord.gg/interactiveimmersive)** - Focused learning environment with structured challenges and project feedback.
+- **[Generative Artists Club](https://discord.gg/generativeartists)** - Cross-platform community where TD artists mingle with Processing, p5.js, and other creative coders.
+
+### Social Media Goldmines
+
+- **[#TouchDesigner on Instagram](https://www.instagram.com/explore/tags/touchdesigner/)** - Daily visual inspiration and behind-the-scenes glimpses from artists worldwide.
+- **[r/TouchDesigner on Reddit](https://www.reddit.com/r/TouchDesigner/)** - Deep technical discussions, troubleshooting, and resource sharing.
+- **[TouchDesigner on Twitter/X](https://twitter.com/search?q=touchdesigner)** - Breaking news, quick tips, and artist announcements.
+
+### Regional Communities
+
+- **[TouchDesigner Japan](https://touchdesigner.jp/)** - Thriving Japanese community with unique tutorials and local meetups.
+- **[TD Montreal](https://www.facebook.com/groups/touchdesignermontreal/)** - One of the most active regional Facebook groups, with regular in-person gatherings.
+- **[TD Berlin Meetup](https://www.meetup.com/topics/touchdesigner/de/berlin/)** - European hub for performance art and installation-focused TD work.
+
+---
+
+## 💎 Hidden Gems: Lesser-Known Treasures
+
+Underappreciated resources that deserve way more attention.
+
+- **[TD Weekly](https://tdweekly.com/)** - Curated newsletter delivering the best TD content to your inbox every week.
+- **[Function Store](https://function.store/)** - Premium tools and components built by the community. Support indie developers while leveling up.
+- **[TD Crash Course PDFs](https://derivative.ca/UserGuide/Glossary)** - Official glossary and quickstart guides that actually answer your questions.
+- **[Kantan Mapper](https://www.kantan-mapper.com/)** - Specialized projection mapping tool built on TouchDesigner's foundation.
+
+---
+
+## 🚀 Getting Involved: Your Next Steps
+
+The TouchDesigner community thrives because of generous contributors. Here's how you can participate:
+
+1. **Share Your Work** - Post your experiments, even the "failed" ones. Every screenshot inspires someone.
+2. **Answer Forum Questions** - Once you learn something, teach it. Explaining solidifies your own understanding.
+3. **Contribute to Open Source** - Many TD tools on GitHub welcome pull requests and feedback.
+4. **Attend Events** - TouchDesigner Summit, local meetups, and online workshops build lasting connections.
+5. **Document Your Process** - Write tutorials, record timelapses, share your .toe files with notes.
+
+---
+
+## 📖 About This Collection
+
+This curated list was created with love by artists, for artists. It's intentionally opinionated, highlighting resources that have proven transformative in real-world creative practices. Unlike exhaustive lists that overwhelm, this collection prioritizes quality, accessibility, and inspiration.
+
+**Last Updated:** October 2025
+
+**Contributions:** While this is a personal curation, suggestions are welcome through pull requests. Please include why a resource deserves inclusion and how it's helped your creative journey.
+
+---
+
+## 🔗 Repository Project Links & Journey Summary
+
+This section contains all main project folders from the touchdesigner-projects repository, along with key summary content about TouchDesigner and the creative journey behind these experiments.
+
+### Project Folders
+
+- **[colorful-flow](https://github.com/Anand0295/touchdesigner-projects/tree/main/colorful-flow)** - Exploration of flowing, colorful generative patterns
+- **[geo-tesselate](https://github.com/Anand0295/touchdesigner-projects/tree/main/geo-tesselate)** - Geometric tessellation experiments
+- **[gradient-reactive](https://github.com/Anand0295/touchdesigner-projects/tree/main/gradient-reactive)** - Reactive gradient systems
+- **[mesh-morph](https://github.com/Anand0295/touchdesigner-projects/tree/main/mesh-morph)** - Mesh morphing and transformation studies
+- **[noise-landscape](https://github.com/Anand0295/touchdesigner-projects/tree/main/noise-landscape)** - Generative landscapes built from noise functions
+- **[point-cloud-dance](https://github.com/Anand0295/touchdesigner-projects/tree/main/point-cloud-dance)** - Dynamic point cloud animations
+- **[proximity-circles](https://github.com/Anand0295/touchdesigner-projects/tree/main/proximity-circles)** - Interactive proximity-based circle systems
+- **[radial-slices](https://github.com/Anand0295/touchdesigner-projects/tree/main/radial-slices)** - Radial slice pattern experiments
+- **[shader-moire-lines](https://github.com/Anand0295/touchdesigner-projects/tree/main/shader-moire-lines)** - GLSL shader experiments with moiré patterns
+- **[stipple-glow](https://github.com/Anand0295/touchdesigner-projects/tree/main/stipple-glow)** - Stippled glowing visual effects
+- **[webcam-particles](https://github.com/Anand0295/touchdesigner-projects/tree/main/webcam-particles)** - Webcam-driven particle system experiments
+
+### About TouchDesigner & This Creative Journey
+
+- **TouchDesigner's Origins**: Created by Greg Hermanovic and the team at Derivative in the late 1990s, TouchDesigner was born from the same lineage as Houdini (Side Effects Software). It carved its own path into real-time performance, interactive installations, and live visual experiences.
+
+- **Global Impact**: Over two decades, TouchDesigner has become essential in creative technology—powering LED installations at festivals like Coachella and Tomorrowland, driving museum experiences, enabling performances by artists like Amon Tobin and Aphex Twin, and serving as the backbone for architectural projections.
+
+- **Diverse User Community**: Artists create generative art and perform as VJs; coders write custom Python and GLSL shaders; educators use it as a gateway to creative coding; technologists build responsive environments and interactive experiences.
+
+- **Node-Based Visual Programming Power**: TouchDesigner invites spatial and systemic thinking. You see data flow and process connections laid out visually. For generative art, this approach is revelatory—interconnections are visible and manipulable, changes happen instantly, and the tight feedback loop accelerates learning.
+
+- **Personal Learning Journey**: This repository represents an ongoing exploration of TouchDesigner's capabilities. Each project is a snapshot of the learning process—from polished explorations to rough experiments that taught valuable lessons. Experiments include particle systems, generative landscapes, feedback loops, data visualization, interactive systems, and shader experiments.
+
+- **Repository Contents**: The collection includes generative art systems, audio reactive visuals, particle experiments, feedback loops, shader studies, interactive prototypes, technical exercises, and compositional experiments. Each project folder includes .toe files, documentation, key learnings, suggested modifications, and additional assets.
+
+- **Learning Philosophy**: The repository is designed for opening, exploring, modifying, and breaking apart. Don't be intimidated by complex networks—every elaborate system started with simple connections. Focus on understanding one operator at a time, build small, experiment freely, and don't be afraid to break things.
+
+- **Community & Growth**: This is a living document of continuing exploration with TouchDesigner. New experiments will be added as new techniques are learned and new ideas are explored. Contributions, suggestions, and collaborative learning are welcomed.
+
+---
+
+*Built with TouchDesigner. Curated with care. Shared with community spirit.*
